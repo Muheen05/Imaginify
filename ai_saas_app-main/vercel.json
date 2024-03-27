@@ -1,6 +1,12 @@
 {
-    "framework": "nextjs",
-    "version": "14.1.0",
-    "buildCommand": "next build"
-  }
-  
+  "routes" : [
+        {
+            "src" : "/",
+            "dest" : "/"
+        },
+        {
+            "src" : "/test",
+            "dest" : "/"
+        }
+    ]
+}
